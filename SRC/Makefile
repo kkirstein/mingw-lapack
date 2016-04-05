@@ -452,11 +452,11 @@ ifdef BUILD_DEPRECATED
 DEPRECATED = $(DEPRECSRC)
 endif
 
-all: ../$(LAPACKLIB) liblapack.$(LIBEXT)
+all: ../$(LAPACKLIB) ../liblapack.$(LIBEXT)
 
-liblapack.$(LIBEXT):
+../liblapack.$(LIBEXT):
 	$(FORTRAN) -shared -o $@ $(ALLOBJ) $(BLASLIB) \
-		-Wl,--out-implib=liblapack.$(LIBEXT).a \
+		-Wl,--out-implib=../liblapack.$(LIBEXT).a \
 		-Wl,--export-all-symbols \
 		-Wl,--enable-auto-import
 
@@ -506,7 +506,6 @@ FRC:
 
 clean:
 	rm -f *.o DEPRECATED/*.o
-	rm -f *.$(LIBEXT) *.$(LIBEXT).a
 
 .f.o: 
 	$(FORTRAN) $(OPTS) -c $< -o $@

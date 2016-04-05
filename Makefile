@@ -125,5 +125,5 @@ cleantesting:
 	( cd TESTING; rm -f xlin* xeig* )
 
 cleanall: cleanlib cleanblas_testing cleancblas_testing cleantesting 
-	rm -f *.a TESTING/*.out INSTALL/test*  BLAS/*.out
+	rm -f *.a *.dll TESTING/*.out INSTALL/test*  BLAS/*.out
 
