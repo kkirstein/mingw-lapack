@@ -1,0 +1,8 @@
+# backup files
+*~
+*.swp
+
+# binary files
+/*.o
+/*.a
+/*.dll
