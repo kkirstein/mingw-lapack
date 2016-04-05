@@ -1,0 +1,32 @@
+ Complex CBLAS Test Program Results
+
+
+ Test of subprogram number  1         CBLAS_CDOTC    
+                                    ----- PASS -----
+
+ Test of subprogram number  2         CBLAS_CDOTU    
+                                    ----- PASS -----
+
+ Test of subprogram number  3         CBLAS_CAXPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  4         CBLAS_CCOPY    
+                                    ----- PASS -----
+
+ Test of subprogram number  5         CBLAS_CSWAP    
+                                    ----- PASS -----
+
+ Test of subprogram number  6         CBLAS_SCNRM2   
+                                    ----- PASS -----
+
+ Test of subprogram number  7         CBLAS_SCASUM   
+                                    ----- PASS -----
+
+ Test of subprogram number  8         CBLAS_CSCAL    
+                                    ----- PASS -----
+
+ Test of subprogram number  9         CBLAS_CSSCAL   
+                                    ----- PASS -----
+
+ Test of subprogram number 10         CBLAS_ICAMAX   
+                                    ----- PASS -----

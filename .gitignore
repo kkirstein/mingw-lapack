@@ -3,6 +3,6 @@
 *.swp
 
 # binary files
-/*.o
-/*.a
-/*.dll
+*.o
+*.a
+*.dll
