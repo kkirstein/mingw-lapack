@@ -3,7 +3,7 @@
 This projects contains the reference __LAPACK__ library with an adjusted `Makefile` for the mingw64 toolchain. It generates both static and shared variants of __LAPACK__.
 
 
-## BLAS
+## LAPACK
 
 Currently, version 3.6.0 of the [LAPACK](http://www.netlib.org/lapack/index.html) library is used.
 
