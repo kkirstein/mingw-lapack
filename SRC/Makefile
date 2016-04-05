@@ -506,6 +506,7 @@ FRC:
 
 clean:
 	rm -f *.o DEPRECATED/*.o
+	rm -f *.$(LIBEXT) *.$(LIBEXT).a
 
 .f.o: 
 	$(FORTRAN) $(OPTS) -c $< -o $@
